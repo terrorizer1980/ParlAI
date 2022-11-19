@@ -13,7 +13,7 @@ nltk==3.4.5
 numpy==1.17.5
 pytest==5.3.2
 pexpect==4.7.0
-Pillow==7.2.0
+Pillow==9.2.0
 py-gfm==0.1.4
 py-rouge==1.1
 pyyaml==5.3.1
@@ -35,3 +35,5 @@ typing-extensions==3.7.4.1
 Unidecode==1.1.1
 websocket-client==0.56.0
 websocket-server==0.4
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
